@@ -140,7 +140,7 @@ gen = s; % <- Assignment to setup the struct
 for i = 1:model.nbSamples
 %     for j = 1:model.nbFrames  % <- Use if changing both frames
         j = 2;  % <- Use if just changing one frame
-        % Random position
+        % Random position - try different randi ranges, e.g. -10, 10
         gen(i).p(1,j).b = [0, randi([-2, 2]), randi([-2, 2])]';
         % Random orientation
         gen(i).p(1,j).A = tform2rotm(rotm2tform(gen(i).p(1,j).A) * eul2tform([0, 0, deg2rad(randi([0, 360]))]));
