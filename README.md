@@ -10,6 +10,10 @@ Example code to accompany: *A. Sena, B. Michael and M. Howard, "Improving Task-P
   }
 ```
 
+Published: https://ieeexplore.ieee.org/document/8967688
+
+Preprint: https://arxiv.org/abs/1903.01240
+
 Demo of alphaTPGMR method, compared against the original TP-GMR model. Given a set of demonstrations, a reproduction of the original demos is generated using alphaTPGMR and then TPGMR. Trajectories are then generated with both methods for a set of randomly generated task parameters to test generalisation capabilities.
 ![Demo output](docs/images/readme_img.png)
 
