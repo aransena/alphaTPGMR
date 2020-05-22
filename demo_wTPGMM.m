@@ -154,6 +154,7 @@ figure('position',[10,10,1400,500]); hold on;
 
 % Original Demos
 subplot(1,3,1); hold on;
+title('Demonstrations')
 plot_alpha = 0.8;
 scatter_s(s,'b', plot_alpha)
 frame_size = 0.1;
@@ -164,6 +165,7 @@ ylim([-1 1])
 
 % Demo reproductions - TPGMR blue, alphatTPGMR red
 subplot(1,3,2); hold on;
+title('Reproductions')
 plot_alpha = 0.3;
 scatter_s(repo_uw, 'b', plot_alpha)
 plot_alpha = 0.8;
@@ -175,6 +177,7 @@ ylim([-1 1])
 
 % Generalised reproductions - TPGMR blue, alphatTPGMR red
 subplot(1,3,3); hold on;
+title('Generalisation')
 plot_alpha = 0.3;
 scatter_s(gen_uw, 'b', plot_alpha)
 plot_alpha = 0.8;
